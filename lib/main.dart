@@ -34,11 +34,24 @@ class Home extends StatelessWidget {
         //     fontFamily: "Goldman",
         //   ),
         // ),
-        child: Icon(
-          Icons.access_alarm,
-          color: Colors.pink,
-          size: 100,
-        )
+        // child: RaisedButton.icon(
+        //   icon: Icon(
+        //     Icons.mail
+        //   ),
+        //   label: Text("mail me"),
+        //   onPressed: (){
+        //     print("you clicked me!");
+        //   },
+        //   color: Colors.lightBlue,
+        // )
+        //
+          child: IconButton(
+            onPressed: (){
+              print("aaa");
+            },
+            icon: Icon(Icons.alternate_email),
+          )
+
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
