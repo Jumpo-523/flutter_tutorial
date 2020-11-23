@@ -34,10 +34,11 @@ class Home extends StatelessWidget {
         //     fontFamily: "Goldman",
         //   ),
         // ),
-        child: Image(
-          // image: NetworkImage("https://www.google.com/sky/about_files/messier82.jpg"),
-          image: AssetImage("assets/space.jpeg"),
-        ),
+        child: Icon(
+          Icons.access_alarm,
+          color: Colors.pink,
+          size: 100,
+        )
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
